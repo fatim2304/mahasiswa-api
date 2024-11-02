@@ -1,11 +1,23 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Nama  : Siti fatimah Ayu Lestari
+# Kelas : 2A_TRPL
+# NIM   : 362358302013
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Praktikum
+# uji coba API dengan Postman 
+# 1. Register User menggunakan Method POST
+![Screenshot (31)](https://github.com/user-attachments/assets/2e09e3eb-e98a-457a-996b-fdb22f5940bd)
+# 2. Login User (post
+![image](https://github.com/user-attachments/assets/ef4170a2-1c63-452f-9a14-0e278be247e0)
+# 3. Menyimpan Data Mahasiswa (Post)
+![Screenshot (32)](https://github.com/user-attachments/assets/a8cbd866-95d3-4511-b3ec-8f8ca16e9165)
+# 4. Mengambil semua data Mahasiswa (Get)
+![Screenshot (33)](https://github.com/user-attachments/assets/673a739a-d417-4339-9847-a47ac319ec48)
+# 5. Menghapus Data Mahasiswa (DELETE)
+![Screenshot (34)](https://github.com/user-attachments/assets/a3668806-edae-4001-9d4d-a2fe6884ba0e)
+
+
+
+
 
 ## About Laravel
 
