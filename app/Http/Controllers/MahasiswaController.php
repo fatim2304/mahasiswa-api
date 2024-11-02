@@ -34,9 +34,35 @@ class MahasiswaController extends Controller
         return $mahasiswa;
     }
 
+    // public function destroy($id)
+    // {
+    //     Mahasiswa::destroy($id);  // Menghapus data
+    //     return response()->json(['message' => 'Deleted']);
+    // }
+
     public function destroy($id)
     {
-        Mahasiswa::destroy($id);  // Menghapus data
-        return response()->json(['message' => 'Deleted']);
+        // Cek apakah pengguna yang mengakses adalah admin
+        if (!auth()->user()->isAdmin()) {
+            return response()->json([
+                'error' => 'Hanya admin yang dapat menghapus data ini.'
+            ], 403);
+        }
+
+        // Lanjutkan dengan penghapusan data jika pengguna adalah admin
+        $mahasiswa = Mahasiswa::find($id);
+
+        if (!$mahasiswa) {
+            return response()->json([
+                'error' => 'Data tidak ditemukan.'
+            ], 404);
+        }
+
+        $mahasiswa->delete();
+
+        return response()->json([
+            'message' => 'Data berhasil dihapus.'
+        ], 200);
     }
+
 }

@@ -19,8 +19,16 @@ class AdminMiddleware
         if ($request->user()->role !== 'admin') {
             return response()->json(['message' => 'Unauthorized'], 403);
         }
-    
-    
+
+
+        if (!auth()->user() || !auth()->user()->isAdmin()) {
+            return response()->json([
+                'error' => 'Akses ditolak. Hanya admin yang dapat mengakses ini.'
+            ], 403);
+        }
+
         return $next($request);
     }
+
+
 }
