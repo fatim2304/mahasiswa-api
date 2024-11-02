@@ -2,8 +2,9 @@
 # Kelas : 2A_TRPL
 # NIM   : 362358302013
 
-# Praktikum
-# uji coba API dengan Postman 
+
+# Praktikum 
+# Uji coba API dengan Postman 
 # 1. Register User menggunakan Method POST
 ![Screenshot (31)](https://github.com/user-attachments/assets/2e09e3eb-e98a-457a-996b-fdb22f5940bd)
 # 2. Login User (post
@@ -14,6 +15,18 @@
 ![Screenshot (33)](https://github.com/user-attachments/assets/673a739a-d417-4339-9847-a47ac319ec48)
 # 5. Menghapus Data Mahasiswa (DELETE)
 ![Screenshot (34)](https://github.com/user-attachments/assets/a3668806-edae-4001-9d4d-a2fe6884ba0e)
+
+# TUGAS 
+# 1. Create Data mahasiswa
+![image](https://github.com/user-attachments/assets/e9e4d027-43b7-4392-9c5e-708db9925a11)
+# 2. Get Data mahasiswa
+![image](https://github.com/user-attachments/assets/694873e3-8861-422f-aca1-b905834f458a)
+![Screenshot (35)](https://github.com/user-attachments/assets/7ca6dfab-3d19-4250-a587-71d134e2b638)
+
+# 3. Update
+![image](https://github.com/user-attachments/assets/2d459016-b60c-4627-9197-98c40aa9afb0)
+# 4. Delete 
+![Screenshot (36)](https://github.com/user-attachments/assets/364e9b88-b412-4826-bc9d-0d7dc6c785bf)
 
 
 
